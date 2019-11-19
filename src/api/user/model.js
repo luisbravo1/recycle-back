@@ -33,6 +33,12 @@ const userSchema = new Schema({
   picture: {
     type: String,
     trim: true
+  },
+  phone: {
+    type: String
+  },
+  address: {
+    type: String
   }
 }, {
   timestamps: true
